@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: getColor(main-bg);
+  font-family: $font-primary;
+  margin: 0;
+  color: getColor(text-dark);
+  font-size: 1rem;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+a {
+  font-weight: $font-secondary;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

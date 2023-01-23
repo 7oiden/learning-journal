@@ -1,0 +1,15 @@
+.footer {
+  background-color: getColor(footer-bg);
+  color: getColor(text-light);
+
+  &__container {
+    @extend .base-container;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 2rem 0;
+    text-transform: capitalize;
+  }
+}

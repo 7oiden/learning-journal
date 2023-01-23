@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="icon" href="data:;base64,=" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav">
+                <div class="nav__container">
+                    <div class="logo-container">
+                        <a href="index.html">
+                            <div class="logo"><img src="./images/logo.png" alt="logo">
+                            </div>
+                            <span class="logo-text">My learning journal</span>
+                        </a>
+                    </div>
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Home</a></li>
+                        <li><a href="about.html" class="nav__link nav__link--active">About me</a></li>
+                        <li id="nav-icon"><i class="fa-solid fa-bars"></i></li>
+                    </ul>
+                </div>
+                <div class="nav-mobile__container">
+                    <ul class="nav-mobile__list">
+                        <li><a href="index.html" class="nav-mobile__link">Home</a></li>
+                        <li><a href="about.html" class="nav-mobile__link">About me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="main-container">
+                    <div class="about-container">
+                        <img src="./images/avatar.jpeg" alt="" class="intro__image">
+                        <div>
+                            <h1>Hi There! My name is Tommy and welcome to my learning journal.</h1>
+                            <p>After several months of learning in the Frontend Developer Career Path, I've made the big
+                                jump
+                                over
+                                the the Bootcamp to get expert code reviews of my Solo Projects and meet like-minded
+                                peers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <div>
+                            <h2>How I stay committed to learning</h2>
+                            <p>I like to think of myself as a lifelong learner. I used to spend hours and hours
+                                learning,
+                                then
+                                try to create simple projects using what I learned or work new techniques into existing
+                                projects. </p>
+                            <p>While that was fun, I felt like it would be helpful to share what I was learning and most
+                                things
+                                about my journey with the world.</p>
+                        </div>
+                        <div>
+                            <h2>How I got started</h2>
+                            <p>I started simple and gradually grew my learning journal site. I would take notes about
+                                what I
+                                was
+                                learning. After each learning session, I'd use my notes to not only reflect on what I
+                                learned
+                                but also write short summaries of what I learned using my own words. </p>
+                            <p>That helped me grok what I was learning, and I realized that posting my learning
+                                summaries
+                                was
+                                also helping others learn and stay motivated.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3 class="text-center">Recent posts</h3>
+                <div class="post-container">
+                    <div class="post">
+                        <img src="./images/blog-image-01.png" alt="" class="post__img">
+                        <div class="post__body">
+                            <span>July 23, 2022</span>
+                            <h2>Blog one</h2>
+                            <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                                months
+                                of learning in the Frontend Developer Career Path.</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="./images/blog-image-02.png" alt="" class="post__img">
+                        <div class="post__body">
+                            <span>July 23, 2022</span>
+                            <h2>Blog two</h2>
+                            <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                                months
+                                of learning in the Frontend Developer Career Path.</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="./images/blog-image-03.png" alt="" class="post__img">
+                        <div class="post__body">
+                            <span>July 23, 2022</span>
+                            <h2>Blog three</h2>
+                            <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several
+                                months
+                                of learning in the Frontend Developer Career Path.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn" id="view-more-btn">View more</button>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div>My learning journal</div>
+            <div class="grey-text">Copyright <span><i class="fa-regular fa-copyright"></i></span> 2023</div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

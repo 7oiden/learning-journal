@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+
+  @media (min-width: getBreakpoint(large)) {
+    font-size: 2.5rem;
+  }
+}
+
+h2, h3 {
+  font-size: 1.375rem;
+
+  @media (min-width: getBreakpoint(large)) {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  line-height: 1.35;
+  color: getColor(body-text);
+
+  @media (min-width: getBreakpoint(large)) {
+    font-size: 1.125rem;
+  }
+}
+
+.post__heading {
+  font-size: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hero__text {
+  max-width: 550px;
+  color: getColor(text-light);
+}
+
+.logo-text {
+  font-size: 1rem;
+  color: getColor(text-dark);
+
+  @media (min-width: getBreakpoint(medium)) {
+    font-size: 1.125rem;
+  }
+}
+

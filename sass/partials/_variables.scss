@@ -1,0 +1,31 @@
+$font-primary: "Source Sans Pro", sans-serif;
+$font-secondary: "Roboto", sans-serif;
+
+$colors: (
+  text-light: #ffffff,
+  text-dark: #151515,
+  footer: #202020,
+  main-bg: #ffffff,
+  body-text: #505050,
+  grey-text: #d7d7d7,
+  primary-bg: #ffffff,
+  footer-bg: #151515,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
+
+$breakpoints: (
+  x-small: 420px,
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  x-large: 1200px,
+  xx-large: 1400px,
+  xxx-large: 1600px,
+);
+
+@function getBreakpoint($breakpoint) {
+  @return map-get($breakpoints, $breakpoint);
+}

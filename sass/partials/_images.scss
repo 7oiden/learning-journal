@@ -1,0 +1,35 @@
+img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-post-img {
+  margin-top: 1rem;
+}
+
+.post__img {
+  border-radius: 5px;
+}
+
+.hero {
+  background-image: url(".././images/hero-image.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+
+  @media (min-width: getBreakpoint(large)) {
+    height: 800px;
+  }
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.intro__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

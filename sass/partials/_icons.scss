@@ -1,0 +1,16 @@
+.fa-bars {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-copyright {
+    color: getColor(grey-text)
+}
+
+#nav-icon {
+    display: block;
+
+    @media (min-width: getBreakpoint(large)) {
+        display: none;
+      }
+}
