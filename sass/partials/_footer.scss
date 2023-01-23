@@ -1,6 +1,7 @@
 .footer {
   background-color: getColor(footer-bg);
   color: getColor(text-light);
+  margin-top: 2rem;
 
   &__container {
     @extend .base-container;

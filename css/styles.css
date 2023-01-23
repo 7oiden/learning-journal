@@ -380,6 +380,7 @@ img {
 .footer {
   background-color: #151515;
   color: #ffffff;
+  margin-top: 2rem;
 }
 .footer__container {
   display: flex;
