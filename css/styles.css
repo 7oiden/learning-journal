@@ -72,8 +72,8 @@ section {
 }
 @media (min-width: 992px) {
   section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
